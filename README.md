@@ -35,7 +35,11 @@ XDG_CONFIG_HOME="$HOME/repos" make locked-deps rel
 
 ## How it works
 
-Support for the [`XDG_CONFIG_HOME`](https://github.com/git/git/commit/22ae029a1e0631570a2db5d030e5755f9be96eee) environment variable allows you to override the location of the `$HOME/.gitconfig` file. By setting `XDG_CONFIG_HOME="$HOME/repos"`, git uses the config file located at `XDG_CONFIG_HOME="$HOME/repos/git/config"`. This config file tells `git` to use the local repository clones instead of `github.com` when cloning repositories, and this is picked up in the `make locked-deps` step.
+Support for the [`XDG_CONFIG_HOME`](https://github.com/git/git/commit/22ae029a1e0631570a2db5d030e5755f9be96eee) environment variable allows you to override the location of the `$HOME/.gitconfig` file.
+
+By setting `XDG_CONFIG_HOME="$HOME/repos"`, git uses the config file located at `XDG_CONFIG_HOME="$HOME/repos/git/config"`.
+
+This config file tells `git` to use the local repository clones instead of `github.com` when cloning repositories, and this is picked up in the `make locked-deps` step.
 
 Included scripts:
 
