@@ -1,0 +1,21 @@
+[user]
+	name = Luke Bakken
+	email = luke@bakken.io
+[core]
+	autocrlf = input
+	safecrlf = true
+	filemode = true
+	excludesfile = /home/lbakken/.gitignore_global
+	editor = vim
+[url "https://"]   
+    insteadOf = git://
+[url "/home/lbakken/repos"]   
+    insteadOf = git://github.com
+[url "/home/lbakken/repos"]   
+    insteadOf = https://github.com
+[url "/home/lbakken/repos/"]   
+    insteadOf = git@github.com:
+[url "/home/lbakken/repos/basho"]   
+    insteadOf = git@github.com:/basho
+[url "/home/lbakken/repos/basho"]   
+    insteadOf = git@github.com:basho

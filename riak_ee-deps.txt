@@ -22,6 +22,7 @@ https://github.com/basho/hamcrest-erlang.git
 https://github.com/basho/hyper.git
 https://github.com/basho/lager.git
 https://github.com/basho/lager_syslog.git
+https://github.com/basho/leveldb.git
 https://github.com/basho/meck.git
 https://github.com/basho/merge_index.git
 https://github.com/basho/mochiweb.git
