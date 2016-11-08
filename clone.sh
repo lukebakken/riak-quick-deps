@@ -14,6 +14,6 @@ do
     then
         echo "[WARNING] dir $DIR already exists, skipping!"
     else
-        git clone --bare $D $DIR
+        git clone --mirror $D $DIR
     fi
 done

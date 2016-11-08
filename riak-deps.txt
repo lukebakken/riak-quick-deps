@@ -51,7 +51,7 @@ https://github.com/basho/riak_auth_mods.git
 https://github.com/basho/riak_control.git
 https://github.com/basho/riak_core.git
 https://github.com/basho/riak_dt.git
-https://github.com/basho/riak_ensemble
+https://github.com/basho/riak_ensemble.git
 https://github.com/basho/riak_kv.git
 https://github.com/basho/riaknostic.git
 https://github.com/basho/riak_pb.git
