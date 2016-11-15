@@ -10,7 +10,9 @@ https://github.com/basho/canola.git
 https://github.com/basho/clique.git
 https://github.com/basho/cluster_info.git
 https://github.com/basho/cuttlefish.git
+https://github.com/basho/druuid.git
 https://github.com/basho/ebloom.git
+https://github.com/basho/econfig.git
 https://github.com/basho/eleveldb.git
 https://github.com/basho/eper.git
 https://github.com/basho/edown.git
