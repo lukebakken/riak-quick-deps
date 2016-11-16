@@ -12,7 +12,7 @@ Are you tired of hitting `github.com` every time you build Riak? Using the scrip
 git clone https://github.com/lukebakken/riak-quick-deps.git $HOME/repos
 ```
 
-Replace `/home/lbakken/repos` in `$HOME/repos/git/config` with the value of `$HOME/repos`.
+Replace `/home/lbakken/repos` in `$HOME/repos/git/config` with the value of `$HOME/repos`. Change the other values in the file as well, unless you'd like me to get the credit / blame for your commits.
 
 Then, run:
 
