@@ -2,9 +2,15 @@
 
 set -o errexit
 
-for D in $(find . -type d -name '*.git')
+for D in $(<riak-deps.txt)
 do
-    (cd $D && git fetch --all --prune --force) &
+    if [[ $D == https* ]]
+    then
+        DIR=${D#*/*/*/}
+    else
+        DIR=${D#*:}
+    fi
+    (cd $DIR && git fetch --all --prune --force) &
 done
 wait
 echo DONE
