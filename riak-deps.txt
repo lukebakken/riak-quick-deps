@@ -36,6 +36,7 @@ https://github.com/basho/kvc.git
 https://github.com/basho/lager.git
 https://github.com/basho/lager_syslog.git
 https://github.com/basho/leveldb.git
+https://github.com/basho/mapred_verify.git
 https://github.com/basho/meck.git
 https://github.com/basho/merl.git
 https://github.com/basho/merge_index.git
@@ -63,6 +64,7 @@ https://github.com/basho/riak_search.git
 https://github.com/basho/riak_shell.git
 https://github.com/basho/riak_sysmon.git
 https://github.com/basho/riak-erlang-client.git
+https://github.com/basho/riak-erlang-http-client.git
 https://github.com/basho/setup.git
 https://github.com/basho/sext.git
 https://github.com/basho/sidejob.git
@@ -78,6 +80,7 @@ https://github.com/erlydtl/erlydtl.git
 https://github.com/etrepum/kvc.git
 https://github.com/jcomellas/getopt.git
 https://github.com/julianduque/erlang-color.git
+https://github.com/kellymclaughlin/druuid.git
 https://github.com/msgpack/msgpack-erlang.git
 https://github.com/seancribbs/eunit_formatters.git
 https://github.com/seancribbs/neotoma.git
