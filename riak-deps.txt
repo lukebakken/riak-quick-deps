@@ -28,6 +28,7 @@ https://github.com/basho/folsom.git
 https://github.com/basho/fuse.git
 https://github.com/basho/getopt.git
 https://github.com/basho/goldrush.git
+https://github.com/basho/gpb.git
 https://github.com/basho/hamcrest-erlang.git
 https://github.com/basho/hyper.git
 https://github.com/basho/ibrowse.git
