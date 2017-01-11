@@ -7,6 +7,7 @@ https://github.com/basho/basho_stats.git
 https://github.com/basho/bear.git
 https://github.com/basho/bitcask.git
 https://github.com/basho/canola.git
+https://github.com/basho/chronos.git
 https://github.com/basho/clique.git
 https://github.com/basho/cluster_info.git
 https://github.com/basho/cuttlefish.git
