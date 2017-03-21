@@ -1,6 +1,7 @@
 git@github.com:basho/riak_jmx.git
 git@github.com:basho/riak_repl.git
 git@github.com:basho/riak_repl_pb_api.git
+git@github.com:basho/riak_s3_api.git
 git@github.com:basho/riak_snmp.git
 git@github.com:jlouis/fuse.git
 https://github.com/basho/basho_stats.git
