@@ -81,7 +81,9 @@ https://github.com/cmullaparthi/ibrowse.git
 https://github.com/DeadZen/goldrush.git
 https://github.com/eproxus/unite.git
 https://github.com/erlydtl/erlydtl.git
+https://github.com/esl/edown.git
 https://github.com/etrepum/kvc.git
+https://github.com/evanmiller/erlydtl.git
 https://github.com/jcomellas/getopt.git
 https://github.com/julianduque/erlang-color.git
 https://github.com/kellymclaughlin/druuid.git
