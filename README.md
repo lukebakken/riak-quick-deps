@@ -9,15 +9,16 @@ Are you tired of hitting `github.com` every time you build Riak? Using the scrip
 ## Installation
 
 ```
-git clone https://github.com/lukebakken/riak-quick-deps.git $HOME/repos
+mkdir -p $HOME/repos/riak-repos
+git clone https://github.com/lukebakken/riak-quick-deps.git $HOME/repos/riak-repos
 ```
 
-Replace `/home/lbakken/repos` in `$HOME/repos/git/config` with the value of `$HOME/repos`. Change the other values in the file as well, unless you'd like me to get the credit / blame for your commits.
+Replace `/home/lbakken/repos/riak-repos` in `$HOME/repos/git/config` with the value of `$HOME/repos/riak-repos`. Change the other values in the file as well, unless you'd like me to get the credit / blame for your commits.
 
 Then, run:
 
 ```
-cd $HOME/repos
+cd $HOME/repos/riak-repos
 ./clone.sh
 ```
 
@@ -30,14 +31,14 @@ cd $HOME/src
 git clone https://github.com/basho/riak.git
 cd riak
 git co riak-2.1.4
-XDG_CONFIG_HOME="$HOME/repos" make locked-deps rel
+XDG_CONFIG_HOME="$HOME/repos/riak-repos" make locked-deps rel
 ```
 
 ## How it works
 
 Support for the [`XDG_CONFIG_HOME`](https://github.com/git/git/commit/22ae029a1e0631570a2db5d030e5755f9be96eee) environment variable allows you to override the location of the `$HOME/.gitconfig` file.
 
-By setting `XDG_CONFIG_HOME="$HOME/repos"`, `git` uses the config file located at `$HOME/repos/git/config`.
+By setting `XDG_CONFIG_HOME="$HOME/repos/riak-repos"`, `git` uses the config file located at `$HOME/repos/riak-repos/git/config`.
 
 This config file tells `git` to use the local repository clones instead of `github.com` when cloning repositories, and this is picked up in the `make locked-deps` step.
 
@@ -54,7 +55,7 @@ If a dependency is missing from `riak-deps.txt`, you'll see an error like this:
 Pulling setup from {git,"git://github.com/uwiger/setup.git",
                         "51ee7c9f64d2bbe9dcbb58c278e8fbfd4d0ca5e2"}
 Cloning into 'setup'...
-fatal: '/home/lbakken/repos/uwiger/setup.git' does not appear to be a git repository
+fatal: '/home/lbakken/repos/riak-repos/uwiger/setup.git' does not appear to be a git repository
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
