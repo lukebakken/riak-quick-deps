@@ -7,13 +7,13 @@
 	filemode = true
 [url "https://"]   
     insteadOf = git://
-[url "/home/lbakken/repos/riak-repos"]   
+[url "/home/lbakken/repos/riak"]   
     insteadOf = git://github.com
-[url "/home/lbakken/repos/riak-repos"]   
+[url "/home/lbakken/repos/riak"]   
     insteadOf = https://github.com
-[url "/home/lbakken/repos/riak-repos/"]   
+[url "/home/lbakken/repos/riak/"]   
     insteadOf = git@github.com:
-[url "/home/lbakken/repos/riak-repos/basho"]   
+[url "/home/lbakken/repos/riak/basho"]   
     insteadOf = git@github.com:/basho
-[url "/home/lbakken/repos/riak-repos/basho"]   
+[url "/home/lbakken/repos/riak/basho"]   
     insteadOf = git@github.com:basho
